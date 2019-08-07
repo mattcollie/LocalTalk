@@ -8,3 +8,11 @@ def create_app():
     init_views(app)
 
     return app
+
+
+def create_server():
+    from localtalk.server import Server
+
+    server = Server()
+
+    return server
