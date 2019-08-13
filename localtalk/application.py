@@ -3,7 +3,7 @@ from localtalk import create_app, create_server
 app = create_app()
 
 server = create_server()
-server.start()
+# server.start()
 
 
 if __name__ == '__main__':
